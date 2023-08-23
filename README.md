@@ -76,8 +76,7 @@ BOT_TOKEN = ''
 ```
 - Создать файл виртуального окружения;
 ```
- nano .env
-
+nano .env
 POSTGRES_DATABASE= postgres
 POSTGRES_USER= email
 POSTGRES_PASSWORD= password
