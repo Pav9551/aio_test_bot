@@ -1,7 +1,8 @@
 # aio_test_bot
 
 ## Это инструкция по развертыванию telegram бота на aiogram.
-
+шаблон файла взят отсюда
+https://money-python.com/telegram/bot-ball/
 ```
 ```
 - Сервис позволяет с помощью telegram бота работать с базой данных;
