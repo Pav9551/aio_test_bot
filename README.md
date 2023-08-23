@@ -85,7 +85,7 @@ PGADMIN_DEFAULT_PASSWORD = password
 ```
 ## Сборка контейнеров
 
- - содержимое скрипта restart.sh
+ - содержимое скрипта restart
 ```curl
 docker-compose down
 docker-compose build
