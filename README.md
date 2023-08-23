@@ -69,7 +69,7 @@ volumes:
 git clone https://github.com/Pav9551/aio_test_bot
 ```
 
-```
+
 - Установить токен Ваш токен TG в ./bot/__main__:
 ```
 BOT_TOKEN = ''
@@ -77,8 +77,7 @@ BOT_TOKEN = ''
 - Создать файл виртуального окружения;
 ```
  nano .env
-```
-```
+
 POSTGRES_DATABASE= postgres
 POSTGRES_USER= email
 POSTGRES_PASSWORD= password
