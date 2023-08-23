@@ -29,12 +29,6 @@ password = 'password'
 
 
 def from_base():
-  #conn = psycopg2.connect(host=host, port=port, dbname=dbname, user=user, password=password)
-  #cur = conn.cursor()
-  #cur.execute(f"SELECT username FROM public.users")
-  #fetch = cur.fetchall()
-  #conn.close()
-  #dict_room = {roomnames[room]: {'loud':fetch[0][0],'count':fetch[1][0],'percent':percent}}
   fetch = 'ничего нет'
   try:
       # Подключение к существующей базе данных
