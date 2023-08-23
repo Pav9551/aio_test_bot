@@ -72,16 +72,22 @@ git clone https://github.com/Pav9551/aio_test_bot
 
 - Установить токен Ваш токен TG в ./bot/__main__:
 ```
-BOT_TOKEN = ''
+BOT_TOKEN = '5242295523:AAHRfiAjDR7Xr0QLBzawAbYWQe0jIJ7QY3s'
 ```
 - Создать файл виртуального окружения;
 ```
 nano .env
+SQLALCHEMY_WARN_20=1
 POSTGRES_DATABASE= postgres
 POSTGRES_USER= email
 POSTGRES_PASSWORD= password
+POSTGRES_PORT= 5432
+POSTGRES_HOST= db
+PG_DATA = /var/lib/pgsql/pgdata
+LOGGING_LEVEL=1
 PGADMIN_DEFAULT_EMAIL = email@ya.ru
 PGADMIN_DEFAULT_PASSWORD = password
+
 ```
 ## Сборка контейнеров
 
