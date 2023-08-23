@@ -68,13 +68,11 @@ volumes:
 ```
 git clone https://github.com/Pav9551/aio_test_bot
 ```
-- Установить права на папку:
-```
- sudo chown -R 5050:5050 pgadmin
+
 ```
 - Установить токен Ваш токен TG в ./bot/__main__:
 ```
- sudo chown -R 5050:5050 pgadmin
+BOT_TOKEN = ''
 ```
 - Создать файл виртуального окружения;
 ```
@@ -106,6 +104,10 @@ docker-compose up -d
 ```curl
 docker-compose ps
 ```
+
+- Установить права на папку если необходимо:
+```
+ sudo chown -R 5050:5050 pgadmin
 
  - для добавления пользователя в базу данных сделайте запрос (воспользуйтесь pgadmin http://***.***.***.***:8080/)
 ```curl
