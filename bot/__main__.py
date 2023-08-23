@@ -6,7 +6,7 @@ from random import shuffle
 import psycopg2
 from psycopg2 import Error
 from psycopg2.extensions import ISOLATION_LEVEL_AUTOCOMMIT
-BOT_TOKEN = '6339702140:AAFOlVJGHgHkRZVAwb8dqOYLAe_i_5HbKPQ'
+BOT_TOKEN = ''
 
 ANSWERS = [
     'Думаю, да!',
@@ -21,7 +21,7 @@ ANSWERS = [
 ]
 
 
-host = '188.120.249.155'
+host = '127.0.0.1'
 port = 5432
 dbname = 'email'
 user = 'email'
