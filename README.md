@@ -112,6 +112,7 @@ docker-compose ps
 ```
 
 - Установить права на папку если необходимо:
+https://www.bojankomazec.com/2020/02/running-pgadmin-in-docker-container.html
 ```
  sudo chown -R 5050:5050 pgadmin
 
