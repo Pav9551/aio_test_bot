@@ -93,7 +93,7 @@ docker-compose up -d
 ```
  - сделать файл restart.sh исполняемым:
 ```curl 
- sudo chmod +x restart.sh
+ sudo chmod +x restart
  ```
  - Собрать и запустить контейнеры скриптом ./restart.sh
 
