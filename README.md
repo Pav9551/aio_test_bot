@@ -65,6 +65,10 @@ volumes:
 ```
 - sudo chown -R 5050:5050 pgadmin
 ```
+- Установить токен Ваш токен TG в ./bot/__main__:
+```
+- sudo chown -R 5050:5050 pgadmin
+```
 - Создать файл виртуального окружения;
 ```
 - nano .env
