@@ -72,7 +72,9 @@ git clone https://github.com/Pav9551/aio_test_bot
 
 - Установить токен Ваш токен TG в ./bot/__main__:
 ```
-BOT_TOKEN = '5242295523:AAHRfiAjDR7Xr0QLBzawAbYWQe0jIJ7QY3s'
+BOT_TOKEN = '5242****:AAHRf******jIJ7QY3s'
+
+host = '**.***.***.***'
 ```
 - Создать файл виртуального окружения;
 ```
