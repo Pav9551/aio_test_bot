@@ -64,17 +64,21 @@ volumes:
 ![Alt-текст](https://github.com/Pav9551/aio_test_bot/blob/main/tg_bot_deployment.png "Deployment")
 
 ## Перед сборкой контейнеров необходимо
+- Скопировать файлы:
+```
+git clone https://github.com/Pav9551/aio_test_bot
+```
 - Установить права на папку:
 ```
-- sudo chown -R 5050:5050 pgadmin
+ sudo chown -R 5050:5050 pgadmin
 ```
 - Установить токен Ваш токен TG в ./bot/__main__:
 ```
-- sudo chown -R 5050:5050 pgadmin
+ sudo chown -R 5050:5050 pgadmin
 ```
 - Создать файл виртуального окружения;
 ```
-- nano .env
+ nano .env
 ```
 
 ```
