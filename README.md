@@ -78,7 +78,6 @@ BOT_TOKEN = ''
 ```
  nano .env
 ```
-
 ```
 POSTGRES_DATABASE= postgres
 POSTGRES_USER= email
