@@ -6,7 +6,7 @@ from random import shuffle
 import psycopg2
 from psycopg2 import Error
 from psycopg2.extensions import ISOLATION_LEVEL_AUTOCOMMIT
-BOT_TOKEN = ''
+BOT_TOKEN = '6339702140:AAFOlVJGHgHkRZVAwb8dqOYLAe_i_5HbKPQ'
 
 ANSWERS = [
     'Думаю, да!',
@@ -21,7 +21,7 @@ ANSWERS = [
 ]
 
 
-host = '127.0.0.1'
+host = '188.120.249.155'
 port = 5432
 dbname = 'email'
 user = 'email'
@@ -29,6 +29,12 @@ password = 'password'
 
 
 def from_base():
+  #conn = psycopg2.connect(host=host, port=port, dbname=dbname, user=user, password=password)
+  #cur = conn.cursor()
+  #cur.execute(f"SELECT username FROM public.users")
+  #fetch = cur.fetchall()
+  #conn.close()
+  #dict_room = {roomnames[room]: {'loud':fetch[0][0],'count':fetch[1][0],'percent':percent}}
   fetch = 'ничего нет'
   try:
       # Подключение к существующей базе данных
